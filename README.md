@@ -4,4 +4,5 @@
 - HTML, CSS and JavaScript.
 
 ## Collaboration 🤝
-- Feito em conjunto com Eduardo Gomes.
+- Feito com a ajuda de [@Eduardo4595](https://github.com/Eduardo4595).
+
