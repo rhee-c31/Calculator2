@@ -1,6 +1,6 @@
 # Calculadora PW 🔢🧮
 
-## Lenguages and tools
+## Lenguages and tools 🛠️
 - HTML, CSS and JavaScript.
 
 ## Collaboration 🤝
