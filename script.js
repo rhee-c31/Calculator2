@@ -21,7 +21,7 @@ function calcular() {
         atualizarDisplay(resultado ?? '0');
         expressao = resultado !== undefined ? resultado.toString() : '';
     } catch {
-        atualizarDisplay('Erro');
+        atualizarDisplay('Erro!');
         expressao = '';
     }
 }
