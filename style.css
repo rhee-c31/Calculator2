@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 html,
 body {
     display: flex;
@@ -61,8 +60,8 @@ body {
         inset 6px 6px 9px rgba(0, 0, 0, 0.8),
         -10px 13px 12px -16px rgba(238, 223, 177, 0.433);
     background: radial-gradient(circle at top right,
-            #7aa8bc,
-            #8ab8cc);
+            #90aac4,
+            #a0c4d4);
     font-size: 3em;
     justify-content: flex-end;
     align-items: center;
@@ -87,6 +86,7 @@ button {
     height: 40px;
     width: 60px;
     font-size: 2.25em;
+    text-align: center;
     color: #ffffff;
     border-radius: 5px;
     border: none;
