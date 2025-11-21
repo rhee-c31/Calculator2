@@ -1,8 +1,8 @@
-# Calculadora PW 🔢🧮
+# Calculator 🔢🧮
 
-## Lenguages and tools 🛠️
+## Used tools 🛠️
 - HTML, CSS and JavaScript.
 
 ## Collaboration 🤝
-- Feito com a ajuda de [@Eduardo4595](https://github.com/Eduardo4595).
+- Made with [@Eduardo4595](https://github.com/Eduardo4595).
 
