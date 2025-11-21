@@ -16,8 +16,13 @@ body {
     margin: 40px auto;
     padding: 28px;
     border-radius: 32px;
-    background: linear-gradient(to bottom, #171517, #2D2B2E);
-    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #171517, #272528);
+    box-shadow:
+        16px 21px 16px rgba(0, 0, 0, 0.425),
+        inset 6px 4px 6px rgba(232, 223, 198, 0.352),
+        inset 40px 32px 26px -40px rgba(255, 229, 153, 0.181),
+        inset -6px -4px 6px rgba(0, 0, 0, 0.752),
+        inset -40px -32px 26px -40px rgba(0, 0, 0, 0.981);
     border: 9px solid #7b7170;
     border-left: none;
     border-top: none;
@@ -49,11 +54,15 @@ body {
     display: flex;
     height: 15%;
     border-top: solid 12px #080808;
-    border-left: solid 12px #272727;
+    border-left: solid 12px #080808;
     border-right: solid 12px #272727;
     border-bottom: solid 12px #272727;
-    box-shadow: inset 6px 6px 2px rgba(0, 0, 0, 0.3);
-    background: #d0eded;
+    box-shadow:
+        inset 6px 6px 9px rgba(0, 0, 0, 0.8),
+        -10px 13px 12px -16px rgba(238, 223, 177, 0.433);
+    background: radial-gradient(circle at top right,
+            #7aa8bc,
+            #8ab8cc);
     font-size: 3em;
     justify-content: flex-end;
     align-items: center;
@@ -81,11 +90,12 @@ button {
     color: #ffffff;
     border-radius: 5px;
     border: none;
-    border-left: solid 3px #a9a39f;
+    border-left: solid 3px #d8d0b7;
     border-bottom: solid 4px #756f69;
     border-right: solid 4px #756f69;
-    background: linear-gradient(to right, #837c76, #9d948d);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0);
+    background: linear-gradient(to right, #736d68, #9d948d);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0),
+        inset 4px 2px 9px rgba(255, 242, 203, 0.401);
     cursor: pointer;
     transition: background 0.2s, transform 0.075s ease;
     font-family: monospace;
@@ -93,10 +103,13 @@ button {
 }
 
 button:hover {
+    color: #ffffffda;
     border-left: solid 3px #928a83;
     border-bottom: solid 4px #655f59;
     border-right: solid 4px #655f59;
-    background: linear-gradient(to right, #756e68, #837c76);
+    background: linear-gradient(to right, #65615b, #736d68);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0),
+        inset 4px 2px 9px rgba(255, 242, 203, 0);
 }
 
 button:active {
@@ -104,14 +117,15 @@ button:active {
 }
 
 .operacao {
-    border-left: solid 3px #3e3c3f;
+    border-left: solid 3px #46453e;
     background: linear-gradient(to right, #201f21, #343235);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0);
     border-bottom: solid 4px #201f21;
     border-right: solid 4px #201f21;
 }
 
 .operacao:hover {
+    color: #ffffffda;
     border-left: solid 3px #2c2a2d;
     background: linear-gradient(to right, #171718, #201f21);
     border-bottom: solid 4px #181719;
