@@ -1,8 +1,9 @@
-# Calculator 🔢🧮
+# Calc 🔢🧮
+Academic project focused on developing a calculator application using HTML and CSS for interface structure and styling, and JavaScript as the primary programming language responsible for implementing the application’s logic.
 
-## Used tools 🛠️
-- HTML, CSS and JavaScript.
+## Tools and Languages 🛠️
+HTML, CSS and JavaScript
 
 ## Collaboration 🤝
-- Made with [@Eduardo4595](https://github.com/Eduardo4595).
-
+[@rhee-c31]()
+[@Eduardo4595]
