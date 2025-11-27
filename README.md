@@ -5,5 +5,5 @@ Academic project focused on developing a calculator application using HTML and C
 HTML, CSS and JavaScript
 
 ## Collaboration 🤝
-[@rhee-c31]()
-[@Eduardo4595]
+- [@rhee-c31](https://github.com/rhee-c31)
+- [@Eduardo4595]()
