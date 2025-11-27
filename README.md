@@ -6,4 +6,4 @@ HTML, CSS and JavaScript
 
 ## Collaboration 🤝
 - [@rhee-c31](https://github.com/rhee-c31)
-- [@Eduardo4595]()
+- [@Eduardo4595](https://github.com/Eduardo4595)
